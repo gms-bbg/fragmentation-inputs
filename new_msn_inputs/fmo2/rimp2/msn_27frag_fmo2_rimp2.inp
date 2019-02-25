@@ -1,3 +1,4 @@
+ $GDDI ngroup=1 $END
  $MP2 code=omprimp2 $END
  $AUXBAS cabnam=ccd $END
  $INTGRL intomp=1 $END
