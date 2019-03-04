@@ -9,7 +9,7 @@ Run settings: mustang, -p 24 -ppn 24 (unthreaded)
 |msn_16frag_efmo_rhf.inp| ✅ | 11687.9| -93332.4390167506 | ~3.2 hr|
 |msn_22frag_efmo_rhf.inp| ❌ | | | Dipit Error |
 |msn_27frag_efmo_rhf.inp| ❌ | | | Localization Error |
-|msn_32frag_efmo_rhf.inp| ✅ | 26235.5 | -185603.1514022247 | (~7.2 hr) Localization Error (first run), Success (second run) |
+|msn_32frag_efmo_rhf.inp| ✅ | 26235.5 | -185603.1514022247 | ~7.2 hr Localization Error (first run), Success (second run) |
 
 ## Threaded
 Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
