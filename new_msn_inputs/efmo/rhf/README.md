@@ -5,7 +5,7 @@
 |msn_16frag_efmo_rhf.inp| mustang, -p 24 -ppn 24 (unthreaded) | ✅ | 11687.9| -93332.4390167506 | ~3.2 hr|
 |msn_22frag_efmo_rhf.inp| mustang, -p 24 -ppn 24 (unthreaded) | ❌ | | | Dipit Error |
 |msn_27frag_efmo_rhf.inp| mustang, -p 24 -ppn 24 (unthreaded) | ❌ | | | Localization Error |
-|msn_32frag_efmo_rhf.inp| mustang, -p 24 -ppn 24 (unthreaded) | ✅ | 26235.5 (~7.2 hr) | -185603.1514022247 | Localization Error (first run), Success (second run)|
+|msn_32frag_efmo_rhf.inp| mustang, -p 24 -ppn 24 (unthreaded) | ✅ | 26235.5 | -185603.1514022247 | (~7.2 hr) Localization Error (first run), Success (second run) |
 
 |Input                  | Run settings | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
 |-----------------------| ------------ | :----: | ------------: | ------------------: | ------- |
