@@ -1,3 +1,5 @@
+
+## Unthreaded
 Run settings: mustang, -p 24 -ppn 24 (unthreaded)
 
 |Input                  | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
@@ -9,7 +11,8 @@ Run settings: mustang, -p 24 -ppn 24 (unthreaded)
 |msn_27frag_efmo_rhf.inp| ❌ | | | Localization Error |
 |msn_32frag_efmo_rhf.inp| ✅ | 26235.5 | -185603.1514022247 | (~7.2 hr) Localization Error (first run), Success (second run) |
 
-Run settings: mustang, -p 24 -ppn 24 (unthreaded)
+## Threaded
+Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
 
 |Input                  | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
 |-----------------------| :----: | ------------: | ------------------: | ------- |
