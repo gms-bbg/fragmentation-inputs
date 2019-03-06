@@ -31,6 +31,6 @@ Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
 |msn_16frag_efmo_rimp2.inp| ✅ | 141832.1 |  -93399.6423659877 | ~39.4 hr |
 |msn_22frag_efmo_rimp2.inp| 🤔 | 185184.6 | -118328.4678309451 | ~51.4 hr |
 |msn_27frag_efmo_rimp2.inp| ✅ | 234746.0 | -151191.8530107352 | ~65.2 hr |
-|msn_32frag_efmo_rimp2.inp| ❓ | running  | | |
+|msn_32frag_efmo_rimp2.inp| ✅ | 319379.3 | -185736.0716380122 |~88.7 hr |
 
 mustang - DoD unclassified Intel Skylake system
