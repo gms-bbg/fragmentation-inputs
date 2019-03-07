@@ -1,5 +1,6 @@
  $CONTRL runtyp=energy
          local=ruednbrg maxit=50 $END
+ $LOCAL CVGLOC=1.0E-6 $END
  $SYSTEM mwords=500 $END
  $GDDI ngroup=1 $END
  $SCF dirscf=.true. npunch=0 $END
