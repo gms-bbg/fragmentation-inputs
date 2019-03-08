@@ -1,4 +1,5 @@
  $SYSTEM mwords=500 $END
+ $LOCAL CVGLOC=1.0E-6 $END
  $GDDI ngroup=1 $END
  $MP2 code=omprimp2 $END
  $AUXBAS cabnam=ccd $END
