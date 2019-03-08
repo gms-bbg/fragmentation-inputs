@@ -25,8 +25,6 @@ Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
 
 ## Unthreaded - ngroup scaling approaches (ngroup=#frags vs. ngroup=#nodes)
 
-mustang - DoD unclassified Intel Skylake system
-
 ### 6 fragment system
 
 |ngroup flag | # | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
@@ -40,3 +38,6 @@ mustang - DoD unclassified Intel Skylake system
 |nnodes | 12 | ✅ |  450.3 | -29309.3535814451 | `$GDDI ngroup=12 $END` |
 |nfrags | 24 | ✅ |  321.9 | -29309.3535833040 | `$GDDI ngroup=6 $END` |
 |nnodes | 24 | ✅ |  451.2 | -29309.3535819534 | `$GDDI ngroup=24 $END` |
+
+mustang - DoD unclassified Intel Skylake system
+
