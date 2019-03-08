@@ -27,6 +27,8 @@ Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
 
 mustang - DoD unclassified Intel Skylake system
 
+### 6 fragment system
+
 |ngroup flag | # | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
 |------------|---:|--------| ------------: | ------------------: | ------- |
 |nnodes |  1 | ✅ | 2355.6 | -29309.3535823744 | `$GDDI ngroup=1 $END` |
