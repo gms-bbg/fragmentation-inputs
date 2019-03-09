@@ -9,5 +9,5 @@ Fragmentation inputs for ECP and CCS
        $FMO
          ...
          modefm(1)= *,256,*,*,*
-                     ^ place value 256 at second element of this array in $FMO
+                       ^ place value 256 at second element of this array in $FMO
        ````
