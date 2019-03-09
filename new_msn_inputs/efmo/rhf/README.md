@@ -27,17 +27,17 @@ Run settings: mustang, -p 1 -ppn 1 (24 OMP threads, 72 MKL threads)
 
 ### 6 fragment system
 
-|ngroup flag | # | Result | Wall Time (s) | Total Energy (a.u.) | Comment |
-|------------|---:|--------| ------------: | ------------------: | ------- |
-|nnodes |  1 | ✅ | 2355.6 | -29309.3535823744 | `$GDDI ngroup=1 $END` |
-|nnodes |  2 | ✅ | 1187.6 | -29309.3535829535 | `$GDDI ngroup=2 $END` |
-|nnodes |  4 | ✅ |  682.4 | -29309.3535822776 | `$GDDI ngroup=4 $END` |
-|nfrags |  6 | ✅ |  451.8 | -29309.3535827610 | `$GDDI ngroup=6 $END` |
-|nnodes |  6 | ✅ |  454.9 | -29309.3535827998 | `$GDDI ngroup=6 $END` |
-|nfrags | 12 | ✅ |  388.1 | -29309.3535827636 | `$GDDI ngroup=6 $END` |
-|nnodes | 12 | ✅ |  450.3 | -29309.3535814451 | `$GDDI ngroup=12 $END` |
-|nfrags | 24 | ✅ |  321.9 | -29309.3535833040 | `$GDDI ngroup=6 $END` |
-|nnodes | 24 | ✅ |  451.2 | -29309.3535819534 | `$GDDI ngroup=24 $END` |
+|ngroup | #  |    | Wall Time (s) | Efficiency |Total Energy (a.u.) | Comment |
+|-------|---:|----| ------:|-----:|------------------: | ------- |
+|nnodes |  1 | ✅ | 2355.6 |      |-29309.3535823744 | `$GDDI ngroup=1 $END` |
+|nnodes |  2 | ✅ | 1187.6 | 1.98 |-29309.3535829535 | `$GDDI ngroup=2 $END` |
+|nnodes |  4 | ✅ |  682.4 | 3.45 |-29309.3535822776 | `$GDDI ngroup=4 $END` |
+|nfrags |  6 | ✅ |  451.8 | 5.21 |-29309.3535827610 | `$GDDI ngroup=6 $END` |
+|nnodes |  6 | ✅ |  454.9 | 5.18 |-29309.3535827998 | `$GDDI ngroup=6 $END` |
+|nfrags | 12 | ✅ |  388.1 | 6.07 |-29309.3535827636 | `$GDDI ngroup=6 $END` |
+|nnodes | 12 | ✅ |  450.3 | 5.23 |-29309.3535814451 | `$GDDI ngroup=12 $END` |
+|nfrags | 24 | ✅ |  321.9 | 7.32 |-29309.3535833040 | `$GDDI ngroup=6 $END` |
+|nnodes | 24 | ✅ |  451.2 | 5.22 |-29309.3535819534 | `$GDDI ngroup=24 $END` |
 
 mustang - DoD unclassified Intel Skylake system
 
