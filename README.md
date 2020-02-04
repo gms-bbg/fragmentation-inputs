@@ -11,9 +11,3 @@ Fragmentation inputs for ECP and CCS
          modefm(1)= *,256,*,*,*
                        ^ place value 256 at second element of this array in $FMO
        ````
-*  Needed source code changes (relative to development branch)
-    *  Increase the number of allowed CPU for parallel EFP
-        *  `sed -i 's/MXCPUEFP=1024/MXCPUEFP=2048/g' source/*.src`
-    *  Permit larger number of fragments
-        * `sed -i 's/MXEFMOPTS=50/MXEFMOPTS=100/g' source/*.src`
-        * `sed -i 's/MXEFMOPPTS=60/MXEFMOPPTS=305/g' source/*.src`
