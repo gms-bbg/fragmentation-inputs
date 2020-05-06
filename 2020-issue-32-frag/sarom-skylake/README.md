@@ -5,8 +5,6 @@
 | msn_32frag_efmo_rimp2.buu.ngroup.01.01_01_95.dlns_unset.log.auto_platform  |  1       |    1      |   1                |  95                          | unset                  |  auto:platform  | Completed, 20434.7, -185730.9737419710 |
 | msn_32frag_efmo_rimp2.buu.ngroup.01.01_01_96.dlns_unset.log.auto_platform  |  1       |    1      |   1                |  96                          | unset                  |  auto:platform  | Completed, 19962.3, -185730.9737428218 |
 | msn_32frag_efmo_rimp2.buu.ngroup.01.01_04_23.dlns_unset.log.auto_platform  |  1       |    1      |   4                |  23                          | unset                  |  auto:platform  | DIPIT |
-| msn_32frag_efmo_rimp2.buu.ngroup.01.01_08_11.dlns_unset.log.auto_platform  |  1       |    1      |   8                |  11                          | unset                  |  auto:platform  | DIPIT |
-| msn_32frag_efmo_rimp2.buu.ngroup.01.01_16_05.dlns_unset.log.auto_platform  |  1       |    1      |  16                |   5                          | unset                  |  auto:platform  | DIPIT |
 | msn_32frag_efmo_rimp2.buu.ngroup.01.01_32_02.dlns_unset.log.auto_platform  |  1       |    1      |  32                |   2                          | unset                  |  auto:platform  | Failed SCF - NaN|
 | msn_32frag_efmo_rimp2.buu.ngroup.01.32_01_96.dlns_unset.log.auto_platform  |  1       |   32      |   1                |  96                          | unset                  |  auto:platform  | DIPIT |
 | msn_32frag_efmo_rimp2.buu.ngroup.01.64_02_47.dlns_unset.log.auto_platform  |  1       |   64      |   2                |  47                          | unset                  |  auto:platform  | Failed |
