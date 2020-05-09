@@ -2,7 +2,7 @@
 ## EFMO/RI-MP2 calculations using Buu's modified 32-fragment input
 
 |  input / output |  ngroup  |  # nodes  |  # total gamess compute  |  # threads / gamess compute  | Result, Walltime (s), Total Energy  | Comment |
-| --------------- | -------- | --------- | ------------------------ | ---------------------------- | ----------------------------------- | ------- |
+| --------------- | -------: | --------: | -----------------------: | ---------------------------: | ----------------------------------- | ------- |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.01_01_47.dlns_unset.log.auto_platform) |  1 |  1 |   1 |  47 | Completed, 17892.1, -185730.9738122932 | |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.01_01_48.dlns_unset.log.auto_platform) |  1 |  1 |   1 |  48 | Completed, 17917.0, -185730.9737428023 | |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.01_01_95.dlns_unset.log.auto_platform) |  1 |  1 |   1 |  95 | Completed, 20434.7, -185730.9737419710 | |
@@ -18,7 +18,7 @@
 ## EFMO/RHF calculations
 
 |  input / output |  ngroup  |  # nodes  |  # total gamess compute  |  # threads / gamess compute  | Result, Walltime (s), Total Energy  | Comment |
-| --------------- | -------- | --------- | ------------------------ | ---------------------------- | ----------------------------------- | ------- |
+| --------------- | -------: | --------: | -----------------------: | ---------------------------: | ----------------------------------- | ------- |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.32_01_96.dlns_unset.log.auto_platform) |  1 | 32 |   1 |  96 | DIPIT | Buu's modified EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.64_02_47.dlns_unset.log.auto_platform) |  1 | 32 |   2 |  47 | DIPIT | Buu's modified EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.32_01_96.dlns_unset.log.auto_platform) | 32 | 32 |   1 |  96 | DIPIT | Buu's modified EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
@@ -28,11 +28,13 @@
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.32_01_96.dlns_unset.log.auto_platform)     | 32 | 32 |   1 |  96 | Completed, 12131.3, -185603.1513947533 | Original EFMO/RIMP2 32-fragment MSN input |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.64_02_47.dlns_unset.log.auto_platform)     | 32 | 32 |   2 |  47 | Failed, after initial guess | Original EFMO/RIMP2 32-fragment MSN input |
 
+<!--
+
 ## EFMO/RI-MP2 calculations using Buu's modified 32-fragment input
-### Run Constraint: Total number of compute threads + DDI data servers does not exceed the total number of physical cores per node
+#### Run Constraint: Total number of compute threads + DDI data servers does not exceed the total number of physical cores per node
 
 |  input / output |  ngroup  |  # nodes  |  # total gamess compute  |  # threads / gamess compute  | Result, Walltime (s), Total Energy  | Comment |
-| --------------- | -------- | --------- | ------------------------ | ---------------------------- | ----------------------------------- | ------- |
+| --------------- | -------: | --------: | -----------------------: | ---------------------------: | ----------------------------------- | ------- |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.32.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.32.64_02_23.dlns_unset.log.auto_platform) | 32 | 32 | 64 | 23 | running | comment |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.01.64_02_23.dlns_unset.log.auto_platform) |  1 | 32 | 64 | 23 | running | comment |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.32.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.buu.ngroup.32.32_01_47.dlns_unset.log.auto_platform) | 32 | 32 | 32 | 47 | running | comment |
@@ -47,10 +49,10 @@
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.ngroup.01.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rimp2.ngroup.01.02_01_47.dlns_unset.log.auto_platform)     |  1 |  2 |  2 | 47 | running | comment |
 
 ## EFMO/RHF calculations
-### Run Constraint: Total number of compute threads + DDI data servers does not exceed the total number of physical cores per node
+#### Run Constraint: Total number of compute threads + DDI data servers does not exceed the total number of physical cores per node
 
 |  input / output |  ngroup  |  # nodes  |  # total gamess compute  |  # threads / gamess compute  | Result, Walltime (s), Total Energy  | Comment |
-| --------------- | -------- | --------- | ------------------------ | ---------------------------- | ----------------------------------- | ------- |
+| --------------- | -------: | --------: | -----------------------: | ---------------------------: | ----------------------------------- | ------- |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.64_02_23.dlns_unset.log.auto_platform)   | 32 | 32 | 64 | 23 | running | EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.01.64_02_23.dlns_unset.log.auto_platform)   |  1 | 32 | 64 | 23 | running | EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.inp)<br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.buu.ngroup.32.32_01_47.dlns_unset.log.auto_platform)   | 32 | 32 | 32 | 47 | running | EFMO/RIMP2 32-fragment MSN input converted to EFMO/RHF calculation |
@@ -63,3 +65,5 @@
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.01.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.01.32_01_47.dlns_unset.log.auto_platform)       |  1 | 32 | 32 | 47 | running | Original EFMO/RIMP2 32-fragment MSN input |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.32.02_01_47.dlns_unset.log.auto_platform)       | 32 |  2 |  2 | 47 | running | Original EFMO/RIMP2 32-fragment MSN input |
 | [input](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.01.inp)    <br>[output](https://github.com/gms-bbg/fragmentation-inputs/blob/master/2020-issue-32-frag/sarom-skylake/msn_32frag_efmo_rhf.ngroup.01.02_01_47.dlns_unset.log.auto_platform)       |  1 |  2 |  2 | 47 | running | Original EFMO/RIMP2 32-fragment MSN input |
+
+-->
