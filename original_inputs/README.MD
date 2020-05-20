@@ -6,3 +6,9 @@ In the msninput subdirectory, the original input files without modifications can
 that may assist in some runs, but were removed from the input files in the main directory. These may end up being useful, but if you 
 wish to use them note that you will need to change the FMO run parameters from a 2-layer run to a (default) 1-layer run, and add the EFMO
 and/or RI-MP2 parameters.
+
+```
+fragmentation-inputs/
+└── original_input          Luke's inputs modified as single layer EFMO/RI-MP2
+    └── msninput            Luke's original inputs (unmodified)
+```
