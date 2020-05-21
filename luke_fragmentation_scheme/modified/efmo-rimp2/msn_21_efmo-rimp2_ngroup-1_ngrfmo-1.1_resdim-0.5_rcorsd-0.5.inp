@@ -399,23 +399,20 @@
  $END
  $DATA
  FMO calculation : msn.xyz
- C1
+  C1
  O.1-1    8
-      N21 3
+      N31 6
+
+ C.1-1    6
+      N31 6
 
  Si.1-1  14
-      N21 3
+      N31 6
+
+ N.1-1    7
+      N31 6
 
  H.1-1    1
-      N21 3
-
- O.1-2    8
-      N31 6
-
- Si.1-2  14
-      N31 6
-
- H.1-2    1
       N31 6
 
  $END
