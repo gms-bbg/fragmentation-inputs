@@ -1,24 +1,21 @@
  $GDDI
     NGROUP=1
  $END
+ $FMOPRP
+    NGRFMO(1)=1, 1, 0, 0, 0,   0, 0, 0, 0, 0,
+    NPRINT=0
+ $END
  $SYSTEM
     MWORDS=11000
     mem10=500000000
     timlim=100000000
-    memddi=10000
- $END
- $MP2
-    code=omprimp2
- $END
- $AUXBAS
-    cabnam=ccd
  $END
  $INTGRL
-    intomp=1
+    intomp=0
  $END
  $CONTRL
     RUNTYP=ENERGY
-    mplevl=2
+    mplevl=0
     local=ruednbrg
     maxit=100
  $END
@@ -30,10 +27,6 @@
     dirscf=.t.
     NPUNCH=0
  $end
- $FMOPRP
-    NGRFMO(1)=1, 1, 0, 0, 0,   0, 0, 0, 0, 0,
-    NPRINT=0
- $END
  $FMO
       nbody=2
       iefmo=1

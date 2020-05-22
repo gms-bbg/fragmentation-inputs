@@ -12,8 +12,12 @@ fragmentation-inputs/
 └── luke_fragmentation_scheme/
     ├── original/               Luke's original inputs (unmodified)
     └── modified/               Luke's inputs modified for GAMESS ECP
-        ├── efmo-rhf/           EFMO-RHF inputs
-        └── efmo-rimp2/         EFMO-RIMP2 inputs
+        ├── threaded/           Inputs for threaded GAMESS Fortran
+        │   ├── efmo-rhf/       EFMO-RHF inputs
+        │   └── efmo-rimp2/     EFMO-RIMP2 inputs
+        └── non-threaded/       Inputs for vanilla GAMESS Fortran
+            ├── efmo-rhf/       EFMO-RHF inputs
+            └── efmo-rimp2/     EFMO-RIMP2 inputs
 ```
 
 Naming scheme within the **modified** folder:

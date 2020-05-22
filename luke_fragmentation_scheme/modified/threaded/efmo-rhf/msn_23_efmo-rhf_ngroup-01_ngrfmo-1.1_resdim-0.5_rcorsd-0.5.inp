@@ -1,6 +1,10 @@
  $GDDI
     NGROUP=1
  $END
+ $FMOPRP
+    NGRFMO(1)=1, 1, 0, 0, 0,   0, 0, 0, 0, 0,
+    NPRINT=0
+ $END
  $SYSTEM
     MWORDS=11000
     mem10=500000000
@@ -23,10 +27,6 @@
     dirscf=.t.
     NPUNCH=0
  $end
- $FMOPRP
-    NGRFMO(1)=1, 1, 0, 0, 0,   0, 0, 0, 0, 0,
-    NPRINT=0
- $END
  $FMO
       nbody=2
       iefmo=1
