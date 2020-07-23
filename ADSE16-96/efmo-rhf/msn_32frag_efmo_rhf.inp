@@ -19,7 +19,7 @@
      IEFMO=1
      RESDIM=0.5
 ! UNCOMMENT THE LINE BELOW FOR POST-HF RUNS
-     RCORSD=0.5
+!    RCORSD=0.5
      MODEFM(1)=0, 1, 0, 1, 1
      RAFO(1)=.1, 1, 1
      MAXCAO=9
