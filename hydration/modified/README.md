@@ -13,7 +13,7 @@ MMMM is the number of <solvent> molecules in the solvated system
 
 PPPP is the number of <solvent> fragments in the solvated system
 
-Q is the number of <sovlent> moleules per fragment
+Q is the number of <solvent> molecules per fragment
 
 <solvent> is shorthand notation to identify the solvent
     <solvent> = w = water
