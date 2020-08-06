@@ -1,6 +1,8 @@
 ## Modified versions of the hydrated (water solvated) MSN
 
-### Naming scheme:
+All inputs in this folder are EFMO-RHF with polarization turned off and dispersion turned off for EFP.
+
+## Naming scheme:
 
 ```
 msn-NN-MMMM-PPPPxQ<solvent>-efmo_<method>.inp
@@ -33,3 +35,4 @@ Q is the number of <solvent> molecules per fragment
 | -2000-0250x8w-  | 2000 |  250 | 8 | water |
 | -2000-0500x4w-  | 2000 |  500 | 4 | water |
 | -2000-1000x2w-  | 2000 | 1000 | 2 | water |
+
