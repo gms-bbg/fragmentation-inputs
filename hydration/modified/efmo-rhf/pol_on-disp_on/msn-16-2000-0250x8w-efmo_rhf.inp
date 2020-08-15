@@ -20,7 +20,7 @@
      RESDIM=0.5
 ! UNCOMMENT THE LINE BELOW FOR POST-HF RUNS
 !    RCORSD=0.5
-     MODEFM(1)=0, 0, 1, 1, 1
+     MODEFM(1)=0, 0, 2, 1, 1
      RAFO(1)=.1, 1, 1
      MAXCAO=9
      MAXBND=94
