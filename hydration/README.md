@@ -1,7 +1,8 @@
 Hydrated MSN, with inputs being maximally close to the previous benchmarks: smallest 6-fragment sector, full 32-fragment ring, and intermediate half-ring made of 16 fragments.
 
 Added 1000 water molecules in monomers, dimers, and tetramers (totalling 1000, 500, and 250 extra fragments, respectively.)
-Also added 2000 water molecules in dimers, tetramers, and octamers (totalling 1000, 500, and 250 extra fragments, respectively) - no monomers to keep the total extra fragment count at 1000, due to EFP restrictions.
+Also added 2000 water molecules in dimers, tetramers, octamers, and hexadecamers (totalling 1000, 500, 250, and 125 extra fragments, respectively) - no monomers to keep the total extra fragment count at 1000, due to EFP restrictions.
+Also added 4000 water molecules in tetramers, octamers, hexadecamers, and duotridecamers (totalling 1000, 500, 250, and 125 extra fragments, respectively) - no monomers nor dimers to keep the total extra fragment count at 1000, due to EFP restrictions.
 
 Note: 4000 water molecules (as tetramers) fails at EFP total polarization step without an error message.
 
