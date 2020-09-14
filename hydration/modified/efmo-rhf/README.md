@@ -38,12 +38,16 @@ Q is the number of <solvent> molecules per fragment
 ```
 
 
-| -MMM-PPPPxQ- | Total number of solvent molecules | Number of solvent fragments | Number of solvent molecules in a single solvent fragment | Solvent |
-| :----------- | --------------------------------: | --------------------------: | -------------------------------------------------------: | :------: |
-| -1000-0250x4w-  | 1000 |  250 | 4 | water |
-| -1000-0500x2w-  | 1000 |  500 | 2 | water |
-| -1000-1000x1w-  | 1000 | 1000 | 1 | water |
-| -2000-0250x8w-  | 2000 |  250 | 8 | water |
-| -2000-0500x4w-  | 2000 |  500 | 4 | water |
-| -2000-1000x2w-  | 2000 | 1000 | 2 | water |
-
+| -MMM-PPPPxQ- | Total number of solvent molecules | Number of solvent fragments | Number of solvent molecules in a single solvent fragment | Solvent | Comment |
+| :----------- | --------------------------------: | --------------------------: | -------------------------------------------------------: | :------: | :------: |
+| -1000-0250x4w-   | 1000 |  250 | 4  | water |     |
+| -1000-0500x2w-   | 1000 |  500 | 2  | water |     |
+| -1000-1000x1w-   | 1000 | 1000 | 1  | water |     |
+| -2000-0125x16w-  | 2000 |  125 | 16 | water | new |
+| -2000-0250x8w-   | 2000 |  250 | 8  | water |     |
+| -2000-0500x4w-   | 2000 |  500 | 4  | water |     |
+| -2000-1000x2w-   | 2000 | 1000 | 2  | water |     |
+| -4000-0125x32w-  | 4000 | 0125 | 32 | water | new |
+| -4000-0250x16w-  | 4000 | 0250 | 16 | water | new |
+| -4000-0500x8w-   | 4000 | 0500 | 8  | water | new |
+| -4000-1000x4w-   | 4000 | 1000 | 4  | water | new |
