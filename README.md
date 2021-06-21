@@ -3,6 +3,16 @@ Fragmentation inputs for ECP and CCS
 
 ## Description of folder contents
 
+### 2021-new-makefp
+Inputs used the new MAKEFP and OpenMP EFP-EFP codes. EFP settings are
+- polarization: on (full version)
+- dispersion: on (direc version)
+- CT: on
+- EXREP: on
+- Coulomb: 0 (the overlap-based screening is included when EXREP is on.)
+
+Contributor (Tosaporn, Peng)
+
 ### 2020-issue-32-frag
 Inputs used to discuss issues with MSN-32 fragment runs.  EFP settings for these inputs:
 - polarization: on
