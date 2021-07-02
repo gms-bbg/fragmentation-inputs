@@ -3,6 +3,11 @@ Fragmentation inputs for ECP and CCS
 
 ## Description of folder contents
 
+### inputs_MSN-ring_re-fragment
+Inputs with various attempts of re-fragmenting existing MSN (6-, 11-, 16-, 22-, 27-, 32-fragment scheme). Please see extensive details in README inside the directory.
+
+Contributor (Anastasia)
+
 ### 2021-new-makefp
 Inputs used the new MAKEFP and OpenMP EFP-EFP codes. EFP settings are
 - polarization: on (full version)
