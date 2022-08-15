@@ -12,7 +12,7 @@ MODEFM(1)=(0,16,1,1,1)
 
 ### Note for MSN inputs
  - For Si-C bond breaking, it should be C=BDA and Si=BAA. Otherwise the CPHF for that fragment won't be converged.
- - The function groups in MSN_22frag, 27frag and 32_frag are absorbed to the next MSN fragment and called 'XXX_merged.inp'
+ - The function groups are absorbed to the next MSN fragment and called 'XXX_merged.inp'
 
 ### Update of the new MAKEFP
  - The new direct version of 2ERIs in CPHF and TDHF for polarization and dispersion

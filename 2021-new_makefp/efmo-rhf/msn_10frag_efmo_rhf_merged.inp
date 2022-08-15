@@ -1,11 +1,7 @@
 ! Change NGROUP to reflect number of nodes you are running on
- $GDDI NGROUP=6 $END
+ $GDDI NGROUP=10 $END
 ! Change 1st and 2nd entry of NGRFMO(1) to reflect number of nodes you
 ! are running on
- $FMOPRP
-    NGRFMO(1)= 6, 6, 0, 0, 0,   0, 0, 0, 0, 0
-    NPRINT=0
- $END
  $SCF DIRSCF=.TRUE. DAMP=.TRUE. SHIFT=.TRUE. NPUNCH=0 $END
  $SYSTEM MWORDS=500 MEMDDI=1800 $END
  $LOCAL CVGLOC=1.0E-6 FCORE=.TRUE. $END
@@ -25,12 +21,11 @@
      MAXCAO=9
      MAXBND=61
      NLAYER=1
-     NFRAG=11
+     NFRAG=10
      ICHARG(1)=
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-          0
+          0, 0, 0, 0, 0, 0, 0, 0, 0, 0
      FRGNAM(1)=
-            Msn1, FnGrp1,   Msn2,   Msn3,   Msn4,
+            Msn1Fn1,   Msn2,   Msn3,   Msn4,
             Msn5,   Msn6,   Msn7,   Msn8,   Msn9,
            Msn10
       INDAT(1)=0
@@ -45,7 +40,7 @@
                450   452   477   550   551   553
                554   555   556   557   558   559
                560   561   562   563   577   578
-               579   580   581   582   583     0
+               579   580   581   582   583     
                412   566   571   572   573   574
                567   568   569   570   575   576
                  0
@@ -200,7 +195,6 @@
         -446     425
         -447     428
         -450     434
-        -412     443
  $END
  $DATA
  EFMO 11 fragment MSN single pore model
