@@ -21,7 +21,7 @@
      MAXCAO=9
      MAXBND=26
      NLAYER=1
-     NFRAG=6
+     NFRAG=5
      ICHARG(1)=
           0, 0, 0, 0, 0
      FRGNAM(1)=
