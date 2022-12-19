@@ -1,6 +1,6 @@
 ! Change NGROUP to reflect number of nodes you are running on
 ! Functional groups are absorbed to MSN fragments
- $GDDI NGROUP=18 $END
+ $GDDI BALTYP=SLB NGROUP=18 $END
 ! Change 1st and 2nd entry of NGRFMO(1) to reflect number of nodes you
 ! are running on
 ! $FMOPRP

@@ -1,5 +1,5 @@
 ! Change NGROUP to reflect number of nodes you are running on
- $GDDI NGROUP=5 $END
+ $GDDI BALTYP=SLB NGROUP=5 $END
 ! Change 1st and 2nd entry of NGRFMO(1) to reflect number of nodes you
 ! are running on
  $SCF DIRSCF=.TRUE. DAMP=.TRUE. SHIFT=.TRUE. NPUNCH=0 $END
