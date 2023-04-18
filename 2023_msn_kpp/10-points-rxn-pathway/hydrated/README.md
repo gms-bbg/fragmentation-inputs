@@ -1,6 +1,8 @@
-### inputs for hydrated MSN
-### nfrag=181, Total numbers of waters = 4597
-### 10 points along a reaction pathway found with molecular models
+# inputs for hydrated MSN
+
+10 points along a reaction pathway found with molecular models
+
+nfrag=181, Total numbers of waters = 4597
 
 | |         total energy (a.u.) |
 |---|----|
