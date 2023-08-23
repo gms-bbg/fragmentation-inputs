@@ -1,4 +1,5 @@
- $MP2 code=omprimp2 $END
+ $offload rhf=.t. makefp=.t. $end
+ $MP2 code=gpurimp2 $END
  $AUXBAS cabnam=ccd $END
 ! Change NGROUP to reflect number of nodes you are running on
 ! Functional groups are absorbed to MSN fragments
@@ -10,7 +11,7 @@
     NPRINT=1
  $END
  $SCF DIRSCF=.TRUE. DAMP=.TRUE. SHIFT=.TRUE. NPUNCH=0 $END
- $SYSTEM MWORDS=1500 MEMDDI=290000 $END
+ $SYSTEM MWORDS=3500 MEMDDI=280000 $END
  $LOCAL CVGLOC=1.0E-6 FCORE=.TRUE. $END
 ! Threaded integrals
  $INTGRL INTOMP=1 $END

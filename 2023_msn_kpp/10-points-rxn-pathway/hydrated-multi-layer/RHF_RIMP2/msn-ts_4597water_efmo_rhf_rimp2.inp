@@ -1,4 +1,5 @@
- $MP2 code=omprimp2 $END
+ $offload rhf=.t. makefp=.t. $end
+ $MP2 code=gpurimp2 $END
  $AUXBAS cabnam=ccd $END
 ! Change NGROUP to reflect number of nodes you are running on
 ! Functional groups are absorbed to MSN fragments
